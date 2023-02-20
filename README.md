@@ -7,7 +7,17 @@ This project is created to learn the API of OpenWeather and Python programming l
 Create database and table using script in folder `sql`  
 
 ## Install dependencies
+### Use virtual environment
+python -m venv venv
+
+### Activate virtual environment
+venv\Scripts\activate
+
+### Install dependencies
 pip install -r requirements.txt
+
+### Deactive virtual environment
+deactivate
 
 ## How to run project
 python main.py
